@@ -1,0 +1,10 @@
+2FRIENDS Hello world!
+2ALL Lorem ipsum sit dolor amet.
+
+DEL 1
+ADD 2
+
+ECHO self
+FRIENDS 1 2
+LIST
+

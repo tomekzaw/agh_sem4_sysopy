@@ -1,0 +1,30 @@
+[tzawadzk@d17-jagular:~/sysopy/cw04/zad1] $ ./main_v1
+Thu Apr  4 17:16:07 2019
+Thu Apr  4 17:16:07 2019
+Thu Apr  4 17:16:08 2019
+Thu Apr  4 17:16:08 2019
+Thu Apr  4 17:16:08 2019
+Thu Apr  4 17:16:08 2019
+^ZOczekuję na Ctrl+Z - kontynuacja albo Ctrl+C - zakończenie programu
+^Z
+Thu Apr  4 17:16:09 2019
+Thu Apr  4 17:16:09 2019
+Thu Apr  4 17:16:09 2019
+Thu Apr  4 17:16:09 2019
+Thu Apr  4 17:16:09 2019
+^ZOczekuję na Ctrl+Z - kontynuacja albo Ctrl+C - zakończenie programu
+^Z
+Thu Apr  4 17:16:10 2019
+Thu Apr  4 17:16:10 2019
+Thu Apr  4 17:16:10 2019
+Thu Apr  4 17:16:10 2019
+Thu Apr  4 17:16:10 2019
+Thu Apr  4 17:16:10 2019
+^ZOczekuję na Ctrl+Z - kontynuacja albo Ctrl+C - zakończenie programu
+^Z
+Thu Apr  4 17:16:11 2019
+Thu Apr  4 17:16:11 2019
+Thu Apr  4 17:16:11 2019
+Thu Apr  4 17:16:11 2019
+Thu Apr  4 17:16:12 2019
+^COdebrano sygnał SIGINT

@@ -1,0 +1,53 @@
+[tzawadzk@d17-jagular:~/sysopy/cw04/zad2] $ ./monitor lista
+path            interval    pid     active
+foo.txt               1s    23185   Yes
+bar.txt               2s    23186   Yes
+
+> stop 23185
+Process PID 23185 stopped
+
+> list
+path            interval    pid     active
+foo.txt               1s    23185   No
+bar.txt               2s    23186   Yes
+
+> stop all
+Process PID 23185 has already been stopped
+Process PID 23186 stopped
+
+> list
+path            interval    pid     active
+foo.txt               1s    23185   No
+bar.txt               2s    23186   No
+
+> start all
+Process PID 23185 started
+Process PID 23186 started
+
+> list
+path            interval    pid     active
+foo.txt               1s    23185   Yes
+bar.txt               2s    23186   Yes
+
+> stop 23186
+Process PID 23186 stopped
+
+> list
+path            interval    pid     active
+foo.txt               1s    23185   Yes
+bar.txt               2s    23186   No
+
+> end
+
+Proces 23185 utworzył 12 kopii pliku foo.txt
+Proces 23186 utworzył 5 kopii pliku bar.txt
+
+
+[tzawadzk@d17-jagular:~/sysopy/cw04/zad2] $ ./monitor lista
+path            interval    pid     active
+foo.txt               1s    23591   Yes
+bar.txt               2s    23592   Yes
+
+> ^C
+Proces 23591 utworzył 6 kopii pliku foo.txt
+Proces 23592 utworzył 2 kopii pliku bar.txt

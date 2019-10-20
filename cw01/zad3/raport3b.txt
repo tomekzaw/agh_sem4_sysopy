@@ -1,0 +1,207 @@
+static -O1
+
+> search_directory /usr/lib *.h tmp
+real  0.1056065s	real  0.100s	user  0.010s	sys  0.090s	search_directory
+real  0.0005405s	real  0.000s	user  0.000s	sys  0.000s	create_block
+
+> remove_block 0
+real  0.0000049s	real  0.000s	user  0.000s	sys  0.000s	remove_block
+
+> search_directory /usr *.h tmp
+real  0.3131464s	real  0.310s	user  0.050s	sys  0.260s	search_directory
+real  0.0005307s	real  0.010s	user  0.000s	sys  0.000s	create_block
+
+> remove_block 1
+real  0.0000026s	real  0.000s	user  0.000s	sys  0.000s	remove_block
+
+> search_directory / "\"*\"" tmp
+real 35.8384633s	real 35.830s	user  1.540s	sys 34.300s	search_directory
+real  0.0005227s	real  0.000s	user  0.000s	sys  0.000s	create_block
+
+> remove_block 2
+real  0.0000018s	real  0.000s	user  0.000s	sys  0.000s	remove_block
+
+static -O2
+
+> search_directory /usr/lib *.h tmp
+real  0.1040359s	real  0.110s	user  0.030s	sys  0.070s	search_directory
+real  0.0005240s	real  0.000s	user  0.000s	sys  0.000s	create_block
+
+> remove_block 0
+real  0.0000036s	real  0.000s	user  0.000s	sys  0.000s	remove_block
+
+> search_directory /usr *.h tmp
+real  0.3133735s	real  0.310s	user  0.060s	sys  0.240s	search_directory
+real  0.0006239s	real  0.000s	user  0.000s	sys  0.000s	create_block
+
+> remove_block 1
+real  0.0000031s	real  0.000s	user  0.000s	sys  0.000s	remove_block
+
+> search_directory / "\"*\"" tmp
+real 35.8045646s	real 35.810s	user  1.550s	sys 34.250s	search_directory
+real  0.0005809s	real  0.000s	user  0.000s	sys  0.000s	create_block
+
+> remove_block 2
+real  0.0000023s	real  0.000s	user  0.000s	sys  0.000s	remove_block
+
+static -O3
+
+> search_directory /usr/lib *.h tmp
+real  0.1057778s	real  0.110s	user  0.000s	sys  0.090s	search_directory
+real  0.0005475s	real  0.000s	user  0.000s	sys  0.000s	create_block
+
+> remove_block 0
+real  0.0000031s	real  0.000s	user  0.000s	sys  0.000s	remove_block
+
+> search_directory /usr *.h tmp
+real  0.3122202s	real  0.310s	user  0.030s	sys  0.260s	search_directory
+real  0.0007227s	real  0.000s	user  0.000s	sys  0.000s	create_block
+
+> remove_block 1
+real  0.0000022s	real  0.000s	user  0.000s	sys  0.000s	remove_block
+
+> search_directory / "\"*\"" tmp
+real 36.0091266s	real 36.010s	user  1.530s	sys 34.460s	search_directory
+real  0.0003498s	real  0.000s	user  0.000s	sys  0.000s	create_block
+
+> remove_block 2
+real  0.0000027s	real  0.000s	user  0.000s	sys  0.000s	remove_block
+
+shared -O1
+
+> search_directory /usr/lib *.h tmp
+real  0.1134999s	real  0.110s	user  0.010s	sys  0.090s	search_directory
+real  0.0006640s	real  0.000s	user  0.000s	sys  0.000s	create_block
+
+> remove_block 0
+real  0.0000071s	real  0.000s	user  0.000s	sys  0.000s	remove_block
+
+> search_directory /usr *.h tmp
+real  0.3381579s	real  0.340s	user  0.000s	sys  0.340s	search_directory
+real  0.0006604s	real  0.000s	user  0.000s	sys  0.000s	create_block
+
+> remove_block 1
+real  0.0000023s	real  0.000s	user  0.000s	sys  0.000s	remove_block
+
+> search_directory / "\"*\"" tmp
+real 38.4930836s	real 38.490s	user  1.880s	sys 36.470s	search_directory
+real  0.0004383s	real  0.000s	user  0.000s	sys  0.000s	create_block
+
+> remove_block 2
+real  0.0000018s	real  0.000s	user  0.000s	sys  0.000s	remove_block
+
+shared -O2
+
+> search_directory /usr/lib *.h tmp
+real  0.1169715s	real  0.110s	user  0.000s	sys  0.100s	search_directory
+real  0.0006693s	real  0.000s	user  0.000s	sys  0.000s	create_block
+
+> remove_block 0
+real  0.0000080s	real  0.000s	user  0.000s	sys  0.000s	remove_block
+
+> search_directory /usr *.h tmp
+real  0.3694863s	real  0.370s	user  0.060s	sys  0.300s	search_directory
+real  0.0006213s	real  0.000s	user  0.000s	sys  0.000s	create_block
+
+> remove_block 1
+real  0.0000031s	real  0.000s	user  0.000s	sys  0.000s	remove_block
+
+> search_directory / "\"*\"" tmp
+real 39.2871927s	real 39.290s	user  1.700s	sys 37.530s	search_directory
+real  0.0004556s	real  0.000s	user  0.000s	sys  0.000s	create_block
+
+> remove_block 2
+real  0.0000027s	real  0.000s	user  0.000s	sys  0.000s	remove_block
+
+shared -O3
+
+> search_directory /usr/lib *.h tmp
+real  0.1125999s	real  0.110s	user  0.000s	sys  0.090s	search_directory
+real  0.0006881s	real  0.000s	user  0.000s	sys  0.000s	create_block
+
+> remove_block 0
+real  0.0000075s	real  0.000s	user  0.000s	sys  0.000s	remove_block
+
+> search_directory /usr *.h tmp
+real  0.3289970s	real  0.330s	user  0.010s	sys  0.310s	search_directory
+real  0.0005973s	real  0.000s	user  0.000s	sys  0.000s	create_block
+
+> remove_block 1
+real  0.0000022s	real  0.000s	user  0.000s	sys  0.000s	remove_block
+
+> search_directory / "\"*\"" tmp
+real 38.9309427s	real 38.930s	user  1.330s	sys 37.600s	search_directory
+real  0.0005426s	real  0.000s	user  0.000s	sys  0.000s	create_block
+
+> remove_block 2
+real  0.0000018s	real  0.000s	user  0.000s	sys  0.000s	remove_block
+
+dynamic -O1
+
+> search_directory /usr/lib *.h tmp
+real  0.1191563s	real  0.120s	user  0.010s	sys  0.090s	search_directory
+real  0.0006387s	real  0.000s	user  0.000s	sys  0.000s	create_block
+
+> remove_block 0
+real  0.0000031s	real  0.000s	user  0.000s	sys  0.000s	remove_block
+
+> search_directory /usr *.h tmp
+real  0.3801259s	real  0.380s	user  0.030s	sys  0.360s	search_directory
+real  0.0006564s	real  0.000s	user  0.000s	sys  0.000s	create_block
+
+> remove_block 1
+real  0.0000023s	real  0.000s	user  0.000s	sys  0.000s	remove_block
+
+> search_directory / "\"*\"" tmp
+real 39.8293442s	real 39.830s	user  1.360s	sys 38.420s	search_directory
+real  0.0006854s	real  0.000s	user  0.000s	sys  0.000s	create_block
+
+> remove_block 2
+real  0.0000022s	real  0.000s	user  0.000s	sys  0.000s	remove_block
+
+dynamic -O2
+
+> search_directory /usr/lib *.h tmp
+real  0.1165635s	real  0.120s	user  0.000s	sys  0.100s	search_directory
+real  0.0005378s	real  0.000s	user  0.000s	sys  0.000s	create_block
+
+> remove_block 0
+real  0.0000040s	real  0.000s	user  0.000s	sys  0.000s	remove_block
+
+> search_directory /usr *.h tmp
+real  0.3246753s	real  0.320s	user  0.010s	sys  0.320s	search_directory
+real  0.0006325s	real  0.000s	user  0.000s	sys  0.000s	create_block
+
+> remove_block 1
+real  0.0000026s	real  0.000s	user  0.000s	sys  0.000s	remove_block
+
+> search_directory / "\"*\"" tmp
+real 39.1538426s	real 39.160s	user  1.990s	sys 37.090s	search_directory
+real  0.0004182s	real  0.000s	user  0.000s	sys  0.000s	create_block
+
+> remove_block 2
+real  0.0000026s	real  0.000s	user  0.000s	sys  0.000s	remove_block
+
+dynamic -O3
+
+> search_directory /usr/lib *.h tmp
+real  0.1171843s	real  0.110s	user  0.000s	sys  0.100s	search_directory
+real  0.0006623s	real  0.000s	user  0.000s	sys  0.000s	create_block
+
+> remove_block 0
+real  0.0000071s	real  0.000s	user  0.000s	sys  0.000s	remove_block
+
+> search_directory /usr *.h tmp
+real  0.3358508s	real  0.340s	user  0.040s	sys  0.300s	search_directory
+real  0.0008284s	real  0.000s	user  0.000s	sys  0.000s	create_block
+
+> remove_block 1
+real  0.0000044s	real  0.000s	user  0.000s	sys  0.000s	remove_block
+
+> search_directory / "\"*\"" tmp
+real 39.6442536s	real 39.640s	user  1.690s	sys 37.910s	search_directory
+real  0.0004765s	real  0.000s	user  0.000s	sys  0.000s	create_block
+
+> remove_block 2
+real  0.0000089s	real  0.000s	user  0.000s	sys  0.000s	remove_block
+

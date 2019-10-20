@@ -1,0 +1,125 @@
+[tzawadzk@d17-jagular:~/sysopy/cw04/zad3] $ make
+gcc -Wall -Wextra -c sender.c
+gcc -Wall -Wextra -c common.c
+gcc -Wall -Wextra -o sender sender.o common.o
+gcc -Wall -Wextra -c catcher.c
+gcc -Wall -Wextra -o catcher catcher.o common.o
+
+
+[tzawadzk@d17-jagular:~/sysopy/cw04/zad3] $ ./catcher KILL
+Hello, I'm catcher (PID 7191)
+waiting for signals from sender...
+received 18 signals from sender (PID 7222)
+sending back 18 signals to sender
+
+    [tzawadzk@d17-jagular:~/sysopy/cw04/zad3] $ ./sender 7191 100 KILL
+    Hello, I'm sender (PID 7222)
+    sending 100 signals to catcher (PID 7191)
+    received back 2 signals from catcher (2.00%)
+
+
+[tzawadzk@d17-jagular:~/sysopy/cw04/zad3] $ ./catcher KILL
+Hello, I'm catcher (PID 8155)
+waiting for signals from sender...
+received 2855 signals from sender (PID 8179)
+sending back 2855 signals to sender
+
+    [tzawadzk@d17-jagular:~/sysopy/cw04/zad3] $ ./sender 8155 10000 KILL
+    Hello, I'm sender (PID 8179)
+    sending 10000 signals to catcher (PID 8155)
+    received back 774 signals from catcher (7.74%)
+
+
+[tzawadzk@d17-jagular:~/sysopy/cw04/zad3] $ ./catcher SIGQUEUE
+Hello, I'm catcher (PID 8564)
+waiting for signals from sender...
+received 40 signals from sender (PID 8588)
+sending back 40 signals to sender
+
+    [tzawadzk@d17-jagular:~/sysopy/cw04/zad3] $ ./sender 8564 100 SIGQUEUE
+    Hello, I'm sender (PID 8588)
+    sending 100 signals to catcher (PID 8564)
+    catcher has received 38 signals (38.00%)
+    received back 15 signals from catcher (15.00%)
+
+
+[tzawadzk@d17-jagular:~/sysopy/cw04/zad3] $ ./catcher SIGQUEUE
+Hello, I'm catcher (PID 9140)
+waiting for signals from sender...
+received 4984 signals from sender (PID 9160)
+sending back 4984 signals to sender
+
+    [tzawadzk@d17-jagular:~/sysopy/cw04/zad3] $ ./sender 9140 10000 SIGQUEUE
+    Hello, I'm sender (PID 9160)
+    sending 10000 signals to catcher (PID 9140)
+    catcher has received 4983 signals (49.83%)
+    received back 2452 signals from catcher (24.52%)
+
+
+[tzawadzk@d17-jagular:~/sysopy/cw04/zad3] $ ./catcher SIGRT
+Hello, I'm catcher (PID 9336)
+waiting for signals from sender...
+received 100 signals from sender (PID 9360)
+sending back 100 signals to sender
+
+    [tzawadzk@d17-jagular:~/sysopy/cw04/zad3] $ ./sender 9336 100 SIGRT
+    Hello, I'm sender (PID 9360)
+    sending 100 signals to catcher (PID 9336)
+    received back 100 signals from catcher (100.00%)
+
+
+[tzawadzk@d17-jagular:~/sysopy/cw04/zad3] $ ./catcher SIGRT
+Hello, I'm catcher (PID 9510)
+waiting for signals from sender...
+received 10000 signals from sender (PID 9534)
+sending back 10000 signals to sender
+
+    [tzawadzk@d17-jagular:~/sysopy/cw04/zad3] $ ./sender 9510 10000 SIGRT
+    Hello, I'm sender (PID 9534)
+    sending 10000 signals to catcher (PID 9510)
+    received back 10000 signals from catcher (100.00%)
+
+
+
+[tzawadzk@d17-jagular:~/sysopy/cw04/zad3] $ make clean
+rm -f *.o sender catcher
+
+[tzawadzk@d17-jagular:~/sysopy/cw04/zad3] $ make
+gcc -Wall -Wextra -DCONFIRM -c sender.c
+gcc -Wall -Wextra -DCONFIRM -c common.c
+gcc -Wall -Wextra -DCONFIRM -o sender sender.o common.o
+gcc -Wall -Wextra -DCONFIRM -c catcher.c
+gcc -Wall -Wextra -DCONFIRM -o catcher catcher.o common.o
+
+
+[tzawadzk@d17-jagular:~/sysopy/cw04/zad3] $ ./catcher KILL
+Hello, I'm catcher (PID 6079)
+waiting for signals from sender...
+received and confirmed 100 signals from sender (PID 6174)
+
+    [tzawadzk@d17-jagular:~/sysopy/cw04/zad3] $ ./sender 6079 100 KILL
+    Hello, I'm sender (PID 6174)
+    sending 100 signals with confirmation to catcher (PID 6079)
+    sent and received confirmation for 100 signals
+
+
+[tzawadzk@d17-jagular:~/sysopy/cw04/zad3] $ ./catcher SIGQUEUE
+Hello, I'm catcher (PID 6371)
+waiting for signals from sender...
+received and confirmed 100 signals from sender (PID 6392)
+
+    [tzawadzk@d17-jagular:~/sysopy/cw04/zad3] $ ./sender 6371 100 SIGQUEUE
+    Hello, I'm sender (PID 6392)
+    sending 100 signals with confirmation to catcher (PID 6371)
+    sent and received confirmation for 100 signals
+
+
+[tzawadzk@d17-jagular:~/sysopy/cw04/zad3] $ ./catcher SIGRT
+Hello, I'm catcher (PID 6702)
+waiting for signals from sender...
+received and confirmed 100 signals from sender (PID 6725)
+
+    [tzawadzk@d17-jagular:~/sysopy/cw04/zad3] $ ./sender 6702 100 SIGRT
+    Hello, I'm sender (PID 6725)
+    sending 100 signals with confirmation to catcher (PID 6702)
+    sent and received confirmation for 100 signals

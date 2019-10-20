@@ -1,0 +1,360 @@
+nthreads=0, mode=block, c=3
+Single thread: 80067 us
+
+nthreads=0, mode=block, c=5
+Single thread: 234522 us
+
+nthreads=0, mode=block, c=8
+Single thread: 640554 us
+
+nthreads=0, mode=block, c=16
+Single thread: 2551190 us
+
+nthreads=0, mode=block, c=32
+Single thread: 10146299 us
+
+nthreads=0, mode=block, c=65
+Single thread: 41776058 us
+
+nthreads=1, mode=block, c=3
+Thread 139698282628864: 79676 us
+Main thread: 80531 us
+
+nthreads=1, mode=block, c=5
+Thread 140310149793536: 234285 us
+Main thread: 235112 us
+
+nthreads=1, mode=block, c=8
+Thread 140094881335040: 646113 us
+Main thread: 646993 us
+
+nthreads=1, mode=block, c=16
+Thread 140635694892800: 2533636 us
+Main thread: 2534435 us
+
+nthreads=1, mode=block, c=32
+Thread 140207657780992: 10133508 us
+Main thread: 10134339 us
+
+nthreads=1, mode=block, c=65
+Thread 140626308040448: 41570800 us
+Main thread: 41571700 us
+
+nthreads=2, mode=block, c=3
+Thread 140613150508800: 40342 us
+Thread 140613142054656: 41268 us
+Main thread: 41533 us
+
+nthreads=2, mode=block, c=5
+Thread 139871213782784: 130613 us
+Thread 139871205328640: 130608 us
+Main thread: 131484 us
+
+nthreads=2, mode=block, c=8
+Thread 140573333980928: 329076 us
+Thread 140573325526784: 328426 us
+Main thread: 329336 us
+
+nthreads=2, mode=block, c=16
+Thread 140521957951232: 1291181 us
+Thread 140521949497088: 1293706 us
+Main thread: 1293951 us
+
+nthreads=2, mode=block, c=32
+Thread 140099383920384: 5295148 us
+Thread 140099375466240: 5304753 us
+Main thread: 5305042 us
+
+nthreads=2, mode=block, c=65
+Thread 140312783816448: 21450702 us
+Thread 140312775362304: 21443048 us
+Main thread: 21451043 us
+
+nthreads=4, mode=block, c=3
+Thread 139655670597376: 23598 us
+Thread 139655662143232: 26218 us
+Thread 139655653689088: 27172 us
+Thread 139655645234944: 21566 us
+Main thread: 27474 us
+
+nthreads=4, mode=block, c=5
+Thread 140700916320000: 70732 us
+Thread 140700907865856: 73487 us
+Thread 140700779742976: 75123 us
+Thread 140700771288832: 72121 us
+Main thread: 75436 us
+
+nthreads=4, mode=block, c=8
+Thread 140174464059136: 198307 us
+Thread 140174455604992: 196464 us
+Thread 140174377813760: 190897 us
+Thread 140174369359616: 193114 us
+Main thread: 198631 us
+
+nthreads=4, mode=block, c=16
+Thread 139638845146880: 740025 us
+Thread 139638836692736: 727398 us
+Thread 139638828238592: 730454 us
+Thread 139638819784448: 733840 us
+Main thread: 740303 us
+
+nthreads=4, mode=block, c=32
+Thread 139874195932928: 3388909 us
+Thread 139874187478784: 3334354 us
+Thread 139874044806912: 3407958 us
+Thread 139874179024640: 3400408 us
+Main thread: 3408237 us
+
+nthreads=4, mode=block, c=65
+Thread 140194649147136: 13852036 us
+Thread 140194640692992: 13873188 us
+Thread 140194632238848: 13926110 us
+Thread 140194623784704: 13934334 us
+Main thread: 13934820 us
+
+nthreads=8, mode=block, c=3
+Thread 140152743855872: 16396 us
+Thread 140152735401728: 16679 us
+Thread 140152726947584: 16620 us
+Thread 140152718493440: 16454 us
+Thread 140152500324096: 16449 us
+Thread 140152491869952: 16511 us
+Thread 140152483415808: 16623 us
+Thread 140152474961664: 16363 us
+Main thread: 17939 us
+
+nthreads=8, mode=block, c=5
+Thread 140679389054720: 42484 us
+Thread 140679380600576: 42681 us
+Thread 140679304906496: 43010 us
+Thread 140679296452352: 42335 us
+Thread 140679287998208: 43361 us
+Thread 140679279544064: 42296 us
+Thread 140679271089920: 42590 us
+Thread 140679262635776: 42656 us
+Main thread: 44153 us
+
+nthreads=8, mode=block, c=8
+Thread 140022007400192: 111337 us
+Thread 140021998946048: 111790 us
+Thread 140021990491904: 111837 us
+Thread 140021982037760: 113005 us
+Thread 140021772257024: 111703 us
+Thread 140021763802880: 111911 us
+Thread 140021755348736: 112180 us
+Thread 140021746894592: 111536 us
+Main thread: 113536 us
+
+nthreads=8, mode=block, c=16
+Thread 140566906210048: 446006 us
+Thread 140566897755904: 446709 us
+Thread 140566889301760: 446051 us
+Thread 140566880847616: 445784 us
+Thread 140566872393472: 447935 us
+Thread 140566863939328: 446676 us
+Thread 140566855485184: 447933 us
+Thread 140566847031040: 442759 us
+Main thread: 448591 us
+
+nthreads=8, mode=block, c=32
+Thread 140145175234304: 1809043 us
+Thread 140145166780160: 1817745 us
+Thread 140145158326016: 1815348 us
+Thread 140145149871872: 1819022 us
+Thread 140145141417728: 1817693 us
+Thread 140145132963584: 1806859 us
+Thread 140144782804736: 1816278 us
+Thread 140144774350592: 1810363 us
+Main thread: 1819838 us
+
+nthreads=8, mode=block, c=65
+Thread 140502521546496: 8979411 us
+Thread 140502513092352: 8989498 us
+Thread 140502504638208: 9001085 us
+Thread 140502496184064: 8997931 us
+Thread 140502487729920: 8979178 us
+Thread 140502405940992: 8998973 us
+Thread 140502397486848: 9003075 us
+Thread 140502389032704: 8993908 us
+Main thread: 9003886 us
+
+nthreads=0, mode=interleaved, c=3
+Single thread: 77689 us
+
+nthreads=0, mode=interleaved, c=5
+Single thread: 234108 us
+
+nthreads=0, mode=interleaved, c=8
+Single thread: 632897 us
+
+nthreads=0, mode=interleaved, c=16
+Single thread: 2504806 us
+
+nthreads=0, mode=interleaved, c=32
+Single thread: 10101030 us
+
+nthreads=0, mode=interleaved, c=65
+Single thread: 41691232 us
+
+nthreads=1, mode=interleaved, c=3
+Thread 140044021204736: 77727 us
+Main thread: 78659 us
+
+nthreads=1, mode=interleaved, c=5
+Thread 140047303247616: 233983 us
+Main thread: 234796 us
+
+nthreads=1, mode=interleaved, c=8
+Thread 139862638528256: 629507 us
+Main thread: 630416 us
+
+nthreads=1, mode=interleaved, c=16
+Thread 140243210798848: 2510577 us
+Main thread: 2511432 us
+
+nthreads=1, mode=interleaved, c=32
+Thread 140722248550144: 10137526 us
+Main thread: 10138447 us
+
+nthreads=1, mode=interleaved, c=65
+Thread 139969228375808: 48064939 us
+Main thread: 48065837 us
+
+nthreads=2, mode=interleaved, c=3
+Thread 140090896746240: 46828 us
+Thread 140090888292096: 48429 us
+Main thread: 48710 us
+
+nthreads=2, mode=interleaved, c=5
+Thread 139941900388096: 138466 us
+Thread 139941891933952: 138569 us
+Main thread: 139411 us
+
+nthreads=2, mode=interleaved, c=8
+Thread 140339757385472: 361001 us
+Thread 140339748931328: 361832 us
+Main thread: 362136 us
+
+nthreads=2, mode=interleaved, c=16
+Thread 140279535568640: 1409124 us
+Thread 140279527114496: 1415257 us
+Main thread: 1418327 us
+
+nthreads=2, mode=interleaved, c=32
+Thread 140393010366208: 6360423 us
+Thread 140393001912064: 6355606 us
+Main thread: 6360719 us
+
+nthreads=2, mode=interleaved, c=65
+Thread 140064116115200: 23084783 us
+Thread 140064107661056: 23022811 us
+Main thread: 23085199 us
+
+nthreads=4, mode=interleaved, c=3
+Thread 139701050869504: 29335 us
+Thread 139701042415360: 28462 us
+Thread 139701033961216: 32049 us
+Thread 139701025507072: 32058 us
+Main thread: 32518 us
+
+nthreads=4, mode=interleaved, c=5
+Thread 140622910654208: 88354 us
+Thread 140622902200064: 83795 us
+Thread 140622893745920: 85933 us
+Thread 140622885291776: 86795 us
+Main thread: 88702 us
+
+nthreads=4, mode=interleaved, c=8
+Thread 139915960715008: 220286 us
+Thread 139915952260864: 228788 us
+Thread 139915874469632: 218840 us
+Thread 139915866015488: 233708 us
+Main thread: 234198 us
+
+nthreads=4, mode=interleaved, c=16
+Thread 140322858534656: 885374 us
+Thread 140322850080512: 878148 us
+Thread 140322841626368: 892944 us
+Thread 140322833172224: 870201 us
+Main thread: 893335 us
+
+nthreads=4, mode=interleaved, c=32
+Thread 139785704507136: 3355165 us
+Thread 139785696052992: 3351968 us
+Thread 139785616164608: 3374789 us
+Thread 139785607710464: 3394892 us
+Main thread: 3395308 us
+
+nthreads=4, mode=interleaved, c=65
+Thread 139944509245184: 13511870 us
+Thread 139944500791040: 13601251 us
+Thread 139944492336896: 13637241 us
+Thread 139944483882752: 13590421 us
+Main thread: 13637827 us
+
+nthreads=8, mode=interleaved, c=3
+Thread 140688436168448: 20308 us
+Thread 140688427714304: 17640 us
+Thread 140688419260160: 21764 us
+Thread 140688410806016: 17432 us
+Thread 140688402351872: 17355 us
+Thread 140688393897728: 17298 us
+Thread 140688385443584: 17113 us
+Thread 140688376989440: 17192 us
+Main thread: 22264 us
+
+nthreads=8, mode=interleaved, c=5
+Thread 140120550475520: 56357 us
+Thread 140120542021376: 53407 us
+Thread 140120533567232: 47427 us
+Thread 140120525113088: 47131 us
+Thread 140120516658944: 59935 us
+Thread 140120508204800: 48357 us
+Thread 140120499750656: 48200 us
+Thread 140120153851648: 47184 us
+Main thread: 60600 us
+
+nthreads=8, mode=interleaved, c=8
+Thread 140075535107840: 144795 us
+Thread 140075526653696: 140946 us
+Thread 140075518199552: 128016 us
+Thread 140075509745408: 142671 us
+Thread 140075501291264: 129063 us
+Thread 140075492837120: 128705 us
+Thread 140075484382976: 126768 us
+Thread 140075475928832: 164875 us
+Main thread: 165710 us
+
+nthreads=8, mode=interleaved, c=16
+Thread 139742641587968: 533704 us
+Thread 139742633133824: 634900 us
+Thread 139742624679680: 578726 us
+Thread 139742616225536: 595766 us
+Thread 139742398056192: 525545 us
+Thread 139742389602048: 526505 us
+Thread 139742381147904: 528599 us
+Thread 139742372693760: 623025 us
+Main thread: 635449 us
+
+nthreads=8, mode=interleaved, c=32
+Thread 140227180168960: 2416825 us
+Thread 140227171714816: 2135333 us
+Thread 140227163260672: 2429744 us
+Thread 140227154806528: 2133341 us
+Thread 140227146352384: 2132517 us
+Thread 140227137898240: 2435762 us
+Thread 140226789836544: 2432158 us
+Thread 140226781382400: 2163841 us
+Main thread: 2451442 us
+
+nthreads=8, mode=interleaved, c=65
+Thread 140686896858880: 9197889 us
+Thread 140686888404736: 9178173 us
+Thread 140686879950592: 8760198 us
+Thread 140686871496448: 8821059 us
+Thread 140686863042304: 9114884 us
+Thread 140686854588160: 9076286 us
+Thread 140686846134016: 8810940 us
+Thread 140686837679872: 9206687 us
+Main thread: 9233176 us
+

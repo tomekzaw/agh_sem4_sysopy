@@ -1,0 +1,14 @@
+[tzawadzk@d17-jagular:~/sysopy/cw05/zad2] $ ./master /tmp/myfifo
+Waiting for slaves...
+2124    Sat Apr  6 12:32:18 CEST 2019
+2124    Sat Apr  6 12:32:23 CEST 2019
+2124    Sat Apr  6 12:32:25 CEST 2019
+2133    Sat Apr  6 12:32:19 CEST 2019
+2133    Sat Apr  6 12:32:24 CEST 2019
+2133    Sat Apr  6 12:32:26 CEST 2019
+2133    Sat Apr  6 12:32:29 CEST 2019
+2109    Sat Apr  6 12:32:16 CEST 2019
+2109    Sat Apr  6 12:32:21 CEST 2019
+2109    Sat Apr  6 12:32:24 CEST 2019
+2109    Sat Apr  6 12:32:29 CEST 2019
+2109    Sat Apr  6 12:32:34 CEST 2019

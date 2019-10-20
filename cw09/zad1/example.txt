@@ -1,0 +1,113 @@
+[tzawadzk@d17-jagular:~/sysopy/cw09/zad1] $ ./main 6 2 3 5
+[1559848794.054657] Wagonik 0: Otwarcie drzwi
+[1559848794.054752] Pasażer 0: Wejście do wagonika 0, jest 1 pasażerów
+[1559848794.054816] Pasażer 1: Wejście do wagonika 0, jest 2 pasażerów
+[1559848794.054873] Pasażer 2: Wejście do wagonika 0, jest 3 pasażerów
+[1559848794.054934] Pasażer 2: Naciśnięcie przycisku start
+[1559848794.054936] Wagonik 0: Zamknięcie drzwi
+[1559848794.054985] Wagonik 1: Otwarcie drzwi
+[1559848794.055022] Pasażer 3: Wejście do wagonika 1, jest 1 pasażerów
+[1559848794.055051] Pasażer 5: Wejście do wagonika 1, jest 2 pasażerów
+[1559848794.055078] Pasażer 4: Wejście do wagonika 1, jest 3 pasażerów
+[1559848794.055107] Pasażer 4: Naciśnięcie przycisku start
+[1559848794.055110] Wagonik 1: Zamknięcie drzwi
+[1559848794.055160] Przejazd 1: Rozpoczęcie jazdy
+[1559848794.059626] Przejazd 1: Zakończenie jazdy
+[1559848794.059627] Wagonik 0: Otwarcie drzwi
+[1559848794.059667] Pasażer 1: Opuszczenie wagonika 0, zostało 2 pasażerów
+[1559848794.059708] Pasażer 2: Opuszczenie wagonika 0, zostało 1 pasażerów
+[1559848794.059778] Pasażer 0: Opuszczenie wagonika 0, zostało 0 pasażerów
+[1559848794.059857] Pasażer 1: Wejście do wagonika 0, jest 1 pasażerów
+[1559848794.059884] Pasażer 0: Wejście do wagonika 0, jest 2 pasażerów
+[1559848794.059914] Pasażer 2: Wejście do wagonika 0, jest 3 pasażerów
+[1559848794.059937] Pasażer 2: Naciśnięcie przycisku start
+[1559848794.059939] Wagonik 0: Zamknięcie drzwi
+[1559848794.059992] Wagonik 1: Otwarcie drzwi
+[1559848794.060018] Pasażer 4: Opuszczenie wagonika 1, zostało 2 pasażerów
+[1559848794.060050] Pasażer 5: Opuszczenie wagonika 1, zostało 1 pasażerów
+[1559848794.060107] Pasażer 3: Opuszczenie wagonika 1, zostało 0 pasażerów
+[1559848794.060153] Pasażer 4: Wejście do wagonika 1, jest 1 pasażerów
+[1559848794.060188] Pasażer 5: Wejście do wagonika 1, jest 2 pasażerów
+[1559848794.060212] Pasażer 3: Wejście do wagonika 1, jest 3 pasażerów
+[1559848794.060238] Pasażer 3: Naciśnięcie przycisku start
+[1559848794.060244] Wagonik 1: Zamknięcie drzwi
+[1559848794.060284] Przejazd 2: Rozpoczęcie jazdy
+[1559848794.061246] Przejazd 2: Zakończenie jazdy
+[1559848794.061261] Wagonik 0: Otwarcie drzwi
+[1559848794.061280] Pasażer 0: Opuszczenie wagonika 0, zostało 2 pasażerów
+[1559848794.061312] Pasażer 2: Opuszczenie wagonika 0, zostało 1 pasażerów
+[1559848794.061367] Pasażer 1: Opuszczenie wagonika 0, zostało 0 pasażerów
+[1559848794.061411] Pasażer 0: Wejście do wagonika 0, jest 1 pasażerów
+[1559848794.061436] Pasażer 2: Wejście do wagonika 0, jest 2 pasażerów
+[1559848794.061461] Pasażer 1: Wejście do wagonika 0, jest 3 pasażerów
+[1559848794.061490] Pasażer 1: Naciśnięcie przycisku start
+[1559848794.061496] Wagonik 0: Zamknięcie drzwi
+[1559848794.061536] Wagonik 1: Otwarcie drzwi
+[1559848794.061560] Pasażer 3: Opuszczenie wagonika 1, zostało 2 pasażerów
+[1559848794.061595] Pasażer 5: Opuszczenie wagonika 1, zostało 1 pasażerów
+[1559848794.061647] Pasażer 4: Opuszczenie wagonika 1, zostało 0 pasażerów
+[1559848794.061686] Pasażer 3: Wejście do wagonika 1, jest 1 pasażerów
+[1559848794.061716] Pasażer 4: Wejście do wagonika 1, jest 2 pasażerów
+[1559848794.061744] Pasażer 5: Wejście do wagonika 1, jest 3 pasażerów
+[1559848794.061779] Pasażer 5: Naciśnięcie przycisku start
+[1559848794.061782] Wagonik 1: Zamknięcie drzwi
+[1559848794.061822] Przejazd 3: Rozpoczęcie jazdy
+[1559848794.064676] Przejazd 3: Zakończenie jazdy
+[1559848794.064692] Wagonik 0: Otwarcie drzwi
+[1559848794.064711] Pasażer 2: Opuszczenie wagonika 0, zostało 2 pasażerów
+[1559848794.064739] Pasażer 1: Opuszczenie wagonika 0, zostało 1 pasażerów
+[1559848794.064791] Pasażer 0: Opuszczenie wagonika 0, zostało 0 pasażerów
+[1559848794.064838] Pasażer 2: Wejście do wagonika 0, jest 1 pasażerów
+[1559848794.064866] Pasażer 1: Wejście do wagonika 0, jest 2 pasażerów
+[1559848794.064891] Pasażer 0: Wejście do wagonika 0, jest 3 pasażerów
+[1559848794.064917] Pasażer 0: Naciśnięcie przycisku start
+[1559848794.064920] Wagonik 0: Zamknięcie drzwi
+[1559848794.064961] Wagonik 1: Otwarcie drzwi
+[1559848794.064990] Pasażer 3: Opuszczenie wagonika 1, zostało 2 pasażerów
+[1559848794.065028] Pasażer 4: Opuszczenie wagonika 1, zostało 1 pasażerów
+[1559848794.065074] Pasażer 5: Opuszczenie wagonika 1, zostało 0 pasażerów
+[1559848794.065130] Pasażer 3: Wejście do wagonika 1, jest 1 pasażerów
+[1559848794.065170] Pasażer 5: Wejście do wagonika 1, jest 2 pasażerów
+[1559848794.065198] Pasażer 4: Wejście do wagonika 1, jest 3 pasażerów
+[1559848794.065229] Pasażer 4: Naciśnięcie przycisku start
+[1559848794.065232] Wagonik 1: Zamknięcie drzwi
+[1559848794.065269] Przejazd 4: Rozpoczęcie jazdy
+[1559848794.067325] Przejazd 4: Zakończenie jazdy
+[1559848794.067258] Wagonik 0: Otwarcie drzwi
+[1559848794.067302] Pasażer 2: Opuszczenie wagonika 0, zostało 2 pasażerów
+[1559848794.067325] Pasażer 0: Opuszczenie wagonika 0, zostało 1 pasażerów
+[1559848794.067370] Pasażer 1: Opuszczenie wagonika 0, zostało 0 pasażerów
+[1559848794.067411] Pasażer 2: Wejście do wagonika 0, jest 1 pasażerów
+[1559848794.067441] Pasażer 1: Wejście do wagonika 0, jest 2 pasażerów
+[1559848794.067469] Pasażer 0: Wejście do wagonika 0, jest 3 pasażerów
+[1559848794.067499] Pasażer 0: Naciśnięcie przycisku start
+[1559848794.067501] Wagonik 0: Zamknięcie drzwi
+[1559848794.067540] Wagonik 1: Otwarcie drzwi
+[1559848794.067563] Pasażer 4: Opuszczenie wagonika 1, zostało 2 pasażerów
+[1559848794.067602] Pasażer 3: Opuszczenie wagonika 1, zostało 1 pasażerów
+[1559848794.067645] Pasażer 5: Opuszczenie wagonika 1, zostało 0 pasażerów
+[1559848794.067693] Pasażer 3: Wejście do wagonika 1, jest 1 pasażerów
+[1559848794.067720] Pasażer 4: Wejście do wagonika 1, jest 2 pasażerów
+[1559848794.067761] Pasażer 5: Wejście do wagonika 1, jest 3 pasażerów
+[1559848794.067794] Pasażer 5: Naciśnięcie przycisku start
+[1559848794.067797] Wagonik 1: Zamknięcie drzwi
+[1559848794.067840] Przejazd 5: Rozpoczęcie jazdy
+[1559848794.070705] Przejazd 5: Zakończenie jazdy
+[1559848794.070705] Wagonik 0: Otwarcie drzwi
+[1559848794.070748] Pasażer 2: Opuszczenie wagonika 0, zostało 2 pasażerów
+[1559848794.070790] Pasażer 0: Opuszczenie wagonika 0, zostało 1 pasażerów
+[1559848794.070833] Pasażer 1: Opuszczenie wagonika 0, zostało 0 pasażerów
+[1559848794.070866] Wagonik 0: Zamknięcie drzwi
+[1559848794.070892] Wagonik 1: Otwarcie drzwi
+[1559848794.070916] Pasażer 3: Opuszczenie wagonika 1, zostało 2 pasażerów
+[1559848794.070957] Pasażer 4: Opuszczenie wagonika 1, zostało 1 pasażerów
+[1559848794.070987] Pasażer 5: Opuszczenie wagonika 1, zostało 0 pasażerów
+[1559848794.071013] Wagonik 1: Zamknięcie drzwi
+[1559848794.071032] Wagonik 1: Zakończenie pracy wątku (140555261855488)
+[1559848794.071032] Wagonik 0: Zakończenie pracy wątku (140555270248192)
+[1559848794.071392] Pasażer 2: Zakończenie pracy wątku (140555303819008)
+[1559848794.071418] Pasażer 3: Zakończenie pracy wątku (140555295426304)
+[1559848794.071410] Pasażer 1: Zakończenie pracy wątku (140555312211712)
+[1559848794.071401] Pasażer 0: Zakończenie pracy wątku (140555320604416)
+[1559848794.071424] Pasażer 4: Zakończenie pracy wątku (140555287033600)
+[1559848794.071432] Pasażer 5: Zakończenie pracy wątku (140555278640896)

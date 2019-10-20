@@ -1,0 +1,27 @@
+[tzawadzk@d17-jagular:~/sysopy/cw05/zad1] $ cat script.txt
+date
+date -R
+echo 123
+echo 123 | echo 456
+echo 789 | cat
+sleep 1
+ls -l | grep main
+find /usr/include | grep .h | wc -l
+find /usr/include | grep .h | grep std | wc -l
+find /usr/include | grep .h | grep std | head -20 | wc -l
+find /usr/include | grep .h | grep std | head -20 | tail -10 | wc -l
+sleep 1 | sleep 2 | sleep 3
+
+[tzawadzk@d17-jagular:~/sysopy/cw05/zad1] $ ./main script.txt
+Sun Apr  7 11:11:51 CEST 2019
+Sun, 07 Apr 2019 11:11:51 +0200
+123
+456
+789
+-rwxrwxr-x. 1 tzawadzk tzawadzk 13544 Apr  7 11:11 main
+-rw-rw-r--. 1 tzawadzk tzawadzk  5036 Apr  7 11:08 main.c
+-rw-rw-r--. 1 tzawadzk tzawadzk  5248 Apr  7 11:11 main.o
+3463
+42
+20
+10

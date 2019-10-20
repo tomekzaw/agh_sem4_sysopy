@@ -1,0 +1,79 @@
+[tzawadzk@d17-jagular:~/sysopy/cw07/zad1] $ ./trucker 50 5 100
+X=50, K=5, M=100
+trucker_pid=11595
+key=-16532380
+semid=5570572
+shmid=7372802
+
+Empty truck arrived, waiting for packages
+loader_pid=11624   time_diff=0.000057   weight=8     truck=8/50
+loader_pid=11623   time_diff=0.000091   weight=8     truck=16/50
+loader_pid=11624   time_diff=0.000171   weight=6     truck=22/50
+loader_pid=11625   time_diff=0.000167   weight=8     truck=30/50
+loader_pid=11623   time_diff=0.000206   weight=6     truck=36/50
+loader_pid=11624   time_diff=0.000243   weight=9     truck=45/50
+Package too heavy, full truck departed
+Empty truck arrived, waiting for packages
+loader_pid=11625   time_diff=0.000297   weight=6     truck=6/50
+loader_pid=11623   time_diff=0.000331   weight=9     truck=15/50
+loader_pid=11625   time_diff=0.000334   weight=9     truck=24/50
+loader_pid=11625   time_diff=0.000327   weight=3     truck=27/50
+loader_pid=11625   time_diff=0.000325   weight=1     truck=28/50
+loader_pid=11625   time_diff=0.000280   weight=3     truck=31/50
+loader_pid=11625   time_diff=0.000280   weight=3     truck=34/50
+loader_pid=11625   time_diff=0.000280   weight=2     truck=36/50
+loader_pid=11625   time_diff=0.000280   weight=9     truck=45/50
+loader_pid=11625   time_diff=0.000275   weight=3     truck=48/50
+Package too heavy, full truck departed
+Empty truck arrived, waiting for packages
+loader_pid=11625   time_diff=0.000326   weight=9     truck=9/50
+loader_pid=11625   time_diff=0.000326   weight=2     truck=11/50
+loader_pid=11625   time_diff=0.000325   weight=6     truck=17/50
+loader_pid=11625   time_diff=0.000328   weight=9     truck=26/50
+loader_pid=11625   time_diff=0.000328   weight=1     truck=27/50
+loader_pid=11625   time_diff=0.000281   weight=7     truck=34/50
+loader_pid=11625   time_diff=0.000283   weight=4     truck=38/50
+loader_pid=11625   time_diff=0.000283   weight=5     truck=43/50
+loader_pid=11625   time_diff=0.000284   weight=1     truck=44/50
+loader_pid=11625   time_diff=0.000282   weight=1     truck=45/50
+loader_pid=11625   time_diff=0.000290   weight=1     truck=46/50
+loader_pid=11625   time_diff=0.000290   weight=1     truck=47/50
+Package too heavy, full truck departed
+Empty truck arrived, waiting for packages
+loader_pid=11625   time_diff=0.000335   weight=4     truck=4/50
+loader_pid=11625   time_diff=0.000332   weight=3     truck=7/50
+loader_pid=11625   time_diff=0.000333   weight=7     truck=14/50
+loader_pid=11625   time_diff=0.000318   weight=4     truck=18/50
+loader_pid=11625   time_diff=0.000318   weight=9     truck=27/50
+loader_pid=11625   time_diff=0.000273   weight=8     truck=35/50
+loader_pid=11625   time_diff=0.000273   weight=4     truck=39/50
+loader_pid=11625   time_diff=0.000275   weight=3     truck=42/50
+loader_pid=11625   time_diff=0.000276   weight=1     truck=43/50
+loader_pid=11625   time_diff=0.000275   weight=3     truck=46/50
+Package too heavy, full truck departed
+Empty truck arrived, waiting for packages
+loader_pid=11625   time_diff=0.000321   weight=10    truck=10/50
+loader_pid=11625   time_diff=0.000321   weight=9     truck=19/50
+loader_pid=11625   time_diff=0.000321   weight=8     truck=27/50
+loader_pid=11625   time_diff=0.000330   weight=3     truck=30/50
+loader_pid=11625   time_diff=0.000329   weight=3     truck=33/50
+
+...
+
+loader_pid=11986   time_diff=0.000320   weight=3     truck=15/50
+loader_pid=11986   time_diff=0.000320   weight=7     truck=22/50
+loader_pid=11986   time_diff=0.000269   weight=1     truck=23/50
+loader_pid=11986   time_diff=0.000266   weight=10    truck=33/50
+loader_pid=11986   time_diff=0.000267   weight=2     truck=35/50
+^C
+Received SIGINT
+loader_pid=11986   time_diff=0.000290   weight=9     truck=44/50
+loader_pid=11986   time_diff=0.000256   weight=5     truck=49/50
+Package too heavy, full truck departed
+Empty truck arrived, waiting for packages
+loader_pid=11986   time_diff=0.000231   weight=8     truck=8/50
+loader_pid=11986   time_diff=0.000188   weight=6     truck=14/50
+loader_pid=11986   time_diff=0.000141   weight=10    truck=24/50
+Successfully detached shared memory
+Successfully removed shared memory
+Successfully removed semaphore

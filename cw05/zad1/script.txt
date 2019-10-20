@@ -1,0 +1,13 @@
+date
+date -R
+echo 123
+echo 123 | echo 456
+echo 789 | cat
+sleep 1
+ls -l | grep main
+find /usr/include | grep .h | wc -l
+find /usr/include | grep .h | grep std | wc -l
+find /usr/include | grep .h | grep std | head -20 | wc -l
+find /usr/include | grep .h | grep std | head -20 | tail -10 | wc -l
+sleep 1 | sleep 2 | sleep 3
+

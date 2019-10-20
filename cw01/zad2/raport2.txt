@@ -1,0 +1,35 @@
+> search_directory /usr/lib *.h tmp
+real  1.4611013s	real  1.460s	user  0.010s	sys  1.150s	search_directory
+real  0.0005529s	real  0.000s	user  0.000s	sys  0.000s	create_block
+
+> remove_block 0
+real  0.0000062s	real  0.000s	user  0.000s	sys  0.000s	remove_block
+
+> search_directory /usr *.h tmp
+real  6.4446114s	real  6.450s	user  0.060s	sys  4.970s	search_directory
+real  0.0007769s	real  0.000s	user  0.000s	sys  0.000s	create_block
+
+> remove_block 1
+real  0.0000027s	real  0.000s	user  0.000s	sys  0.000s	remove_block
+
+> search_directory / "\"*\"" tmp
+real 59.9477550s	real 59.950s	user  1.970s	sys 47.500s	search_directory
+real  0.0008618s	real  0.000s	user  0.000s	sys  0.000s	create_block
+
+> remove_block 2
+real  0.0000214s	real  0.000s	user  0.000s	sys  0.000s	remove_block
+
+> search_directory / "\"*\"" tmp
+real 40.2704069s	real 40.270s	user  1.420s	sys 38.800s	search_directory
+real  0.0006018s	real  0.000s	user  0.000s	sys  0.000s	create_block
+
+> remove_block 3
+real  0.0000031s	real  0.000s	user  0.000s	sys  0.000s	remove_block
+
+> search_directory / "\"*\"" tmp
+real 39.9524555s	real 39.950s	user  2.110s	sys 37.750s	search_directory
+real  0.0005400s	real  0.000s	user  0.000s	sys  0.000s	create_block
+
+> remove_block 4
+real  0.0000036s	real  0.000s	user  0.000s	sys  0.000s	remove_block
+
